@@ -1,8 +1,6 @@
-<h1 align="center">
-  <a href="https://github.com/Gokulraj002">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=800&color=6EE7B7&center=true&vCenter=true&width=600&lines=Hi+%F0%9F%91%8B%2C+I'm+Gokul;Full-Stack+Developer;I+ship+websites+that+load+fast;Building+for+small+businesses+in+India" alt="Typing SVG" />
-  </a>
-</h1>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Gokulraj002/Gokulraj002/main/.github/assets/hero.svg" alt="Gokul — Full-Stack Developer" />
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Gokulraj002&label=Profile%20views&color=6ee7b7&style=flat-square" alt="views" />
@@ -11,6 +9,7 @@
   </a>
   <img src="https://img.shields.io/badge/Focus-Full--Stack%20%2B%20Client%20Sites-6ee7b7?style=flat-square" alt="focus" />
   <img src="https://img.shields.io/badge/Base-Bangalore%2C%20IN-6ee7b7?style=flat-square" alt="location" />
+  <img src="https://img.shields.io/badge/Open%20to-Freelance-22c55e?style=flat-square" alt="freelance" />
 </p>
 
 ---
