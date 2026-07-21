@@ -12,76 +12,40 @@
       <circle cx="11" cy="11" r="0.6" fill="#1e293b" opacity="0.55"/>
     </pattern>
   </defs>
-
   <rect x="0.5" y="0.5" width="899" height="359" rx="14" fill="url(#bg)" stroke="#1e293b" stroke-width="1"/>
   <rect x="0.5" y="0.5" width="899" height="359" rx="14" fill="url(#dots)"/>
-
   <path d="M 0.5,14 A 13.5,13.5 0 0 1 14,0.5 L 886,0.5 A 13.5,13.5 0 0 1 899.5,14 L 899.5,44 L 0.5,44 Z" fill="url(#titlebar)"/>
   <line x1="0" y1="44" x2="900" y2="44" stroke="#0b1220" stroke-width="1"/>
-
   <circle cx="24" cy="22" r="7" fill="#ef4444"/>
   <circle cx="46" cy="22" r="7" fill="#eab308"/>
   <circle cx="68" cy="22" r="7" fill="#22c55e"/>
-
   <text x="450" y="27" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" fill="#64748b" text-anchor="middle">~/gokulraj — zsh</text>
-
   <g>
-    <circle cx="820" cy="22" r="4" fill="#22c55e">
-      <animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
+    <circle cx="820" cy="22" r="4" fill="#22c55e"><animate attributeName="opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/></circle>
     <text x="832" y="26" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#22c55e" letter-spacing="1">LIVE</text>
   </g>
-
   <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" font-weight="400">
-
-    <clipPath id="c1"><rect x="24" y="66" width="0" height="22">
-      <animate attributeName="width" from="0" to="230" dur="1.0s" begin="0.5s" fill="freeze"/>
-    </rect></clipPath>
+    <clipPath id="c1"><rect x="24" y="66" width="0" height="22"><animate attributeName="width" from="0" to="230" dur="1.0s" begin="0.5s" fill="freeze"/></rect></clipPath>
     <text x="24" y="82" fill="#e2e8f0" clip-path="url(#c1)"><tspan fill="#6ee7b7" font-weight="700">➜</tspan> <tspan fill="#38bdf8">~/gokulraj</tspan> <tspan fill="#94a3b8">$</tspan> <tspan fill="#f1f5f9">whoami</tspan></text>
-
-    <clipPath id="c2"><rect x="24" y="94" width="0" height="22">
-      <animate attributeName="width" from="0" to="540" dur="1.3s" begin="1.7s" fill="freeze"/>
-    </rect></clipPath>
+    <clipPath id="c2"><rect x="24" y="94" width="0" height="22"><animate attributeName="width" from="0" to="540" dur="1.3s" begin="1.7s" fill="freeze"/></rect></clipPath>
     <text x="24" y="110" fill="#cbd5e1" clip-path="url(#c2)"><tspan fill="#6ee7b7">▸</tspan> Gokul — Full-Stack Developer · Bangalore, IN</text>
-
-    <clipPath id="c3"><rect x="24" y="130" width="0" height="22">
-      <animate attributeName="width" from="0" to="345" dur="1.2s" begin="3.2s" fill="freeze"/>
-    </rect></clipPath>
+    <clipPath id="c3"><rect x="24" y="130" width="0" height="22"><animate attributeName="width" from="0" to="345" dur="1.2s" begin="3.2s" fill="freeze"/></rect></clipPath>
     <text x="24" y="146" fill="#e2e8f0" clip-path="url(#c3)"><tspan fill="#6ee7b7" font-weight="700">➜</tspan> <tspan fill="#38bdf8">~/gokulraj</tspan> <tspan fill="#94a3b8">$</tspan> <tspan fill="#f1f5f9">cat</tspan> <tspan fill="#fbbf24">philosophy.md</tspan></text>
-
-    <clipPath id="c4"><rect x="24" y="158" width="0" height="22">
-      <animate attributeName="width" from="0" to="500" dur="1.4s" begin="4.5s" fill="freeze"/>
-    </rect></clipPath>
+    <clipPath id="c4"><rect x="24" y="158" width="0" height="22"><animate attributeName="width" from="0" to="500" dur="1.4s" begin="4.5s" fill="freeze"/></rect></clipPath>
     <text x="24" y="174" fill="#cbd5e1" clip-path="url(#c4)"><tspan fill="#6ee7b7">▸</tspan> <tspan font-style="italic" fill="#e2e8f0">"Boring reliability &gt; shiny complexity."</tspan></text>
-
-    <clipPath id="c5"><rect x="24" y="194" width="0" height="22">
-      <animate attributeName="width" from="0" to="400" dur="1.3s" begin="6.0s" fill="freeze"/>
-    </rect></clipPath>
-    <text x="24" y="210" fill="#e2e8f0" clip-path="url(#c5)"><tspan fill="#6ee7b7" font-weight="700">➜</tspan> <tspan fill="#38bdf8">~/gokulraj</tspan> <tspan fill="#94a3b8">$</tspan> <tspan fill="#f1f5f9">ls</tspan> <tspan fill="#fbbf24">./clients/</tspan> <tspan fill="#94a3b8">|</tspan> <tspan fill="#f1f5f9">wc -l</tspan></text>
-
-    <clipPath id="c6"><rect x="24" y="222" width="0" height="22">
-      <animate attributeName="width" from="0" to="620" dur="1.6s" begin="7.4s" fill="freeze"/>
-    </rect></clipPath>
-    <text x="24" y="238" fill="#cbd5e1" clip-path="url(#c6)"><tspan fill="#6ee7b7">▸</tspan> <tspan fill="#a5f3fc" font-weight="600">40+</tspan> live sites — dental · real-estate · fintech · F&amp;B · gov</text>
-
-    <clipPath id="c7"><rect x="24" y="258" width="0" height="22">
-      <animate attributeName="width" from="0" to="345" dur="1.3s" begin="9.1s" fill="freeze"/>
-    </rect></clipPath>
-    <text x="24" y="274" fill="#e2e8f0" clip-path="url(#c7)"><tspan fill="#6ee7b7" font-weight="700">➜</tspan> <tspan fill="#38bdf8">~/gokulraj</tspan> <tspan fill="#94a3b8">$</tspan> <tspan fill="#f1f5f9">status</tspan> <tspan fill="#fbbf24">--available</tspan></text>
-
-    <clipPath id="c8"><rect x="24" y="286" width="0" height="22">
-      <animate attributeName="width" from="0" to="640" dur="1.5s" begin="10.5s" fill="freeze"/>
-    </rect></clipPath>
-    <text x="24" y="302" fill="#cbd5e1" clip-path="url(#c8)"><tspan fill="#22c55e" font-weight="700">✓</tspan> Open for freelance · Reply within 24h · <tspan fill="#6ee7b7">gokul.raj@ojiva.ai</tspan></text>
-
-    <clipPath id="c9"><rect x="24" y="322" width="0" height="22">
-      <animate attributeName="width" from="0" to="190" dur="0.7s" begin="12.1s" fill="freeze"/>
-    </rect></clipPath>
+    <clipPath id="c5"><rect x="24" y="194" width="0" height="22"><animate attributeName="width" from="0" to="400" dur="1.3s" begin="6.0s" fill="freeze"/></rect></clipPath>
+    <text x="24" y="210" fill="#e2e8f0" clip-path="url(#c5)"><tspan fill="#6ee7b7" font-weight="700">➜</tspan> <tspan fill="#38bdf8">~/gokulraj</tspan> <tspan fill="#94a3b8">$</tspan> <tspan fill="#f1f5f9">ls</tspan> <tspan fill="#fbbf24">./projects/</tspan> <tspan fill="#94a3b8">|</tspan> <tspan fill="#f1f5f9">wc -l</tspan></text>
+    <clipPath id="c6"><rect x="24" y="222" width="0" height="22"><animate attributeName="width" from="0" to="620" dur="1.6s" begin="7.4s" fill="freeze"/></rect></clipPath>
+    <text x="24" y="238" fill="#cbd5e1" clip-path="url(#c6)"><tspan fill="#6ee7b7">▸</tspan> <tspan fill="#a5f3fc" font-weight="600">78</tspan> repositories — react · node · html · css · javascript</text>
+    <clipPath id="c7"><rect x="24" y="258" width="0" height="22"><animate attributeName="width" from="0" to="270" dur="1.1s" begin="9.1s" fill="freeze"/></rect></clipPath>
+    <text x="24" y="274" fill="#e2e8f0" clip-path="url(#c7)"><tspan fill="#6ee7b7" font-weight="700">➜</tspan> <tspan fill="#38bdf8">~/gokulraj</tspan> <tspan fill="#94a3b8">$</tspan> <tspan fill="#f1f5f9">uptime</tspan></text>
+    <clipPath id="c8"><rect x="24" y="286" width="0" height="22"><animate attributeName="width" from="0" to="660" dur="1.5s" begin="10.3s" fill="freeze"/></rect></clipPath>
+    <text x="24" y="302" fill="#cbd5e1" clip-path="url(#c8)"><tspan fill="#22c55e" font-weight="700">✓</tspan> Building since Dec 2023 · shipping every week · <tspan fill="#6ee7b7">gokul.raj@ojiva.ai</tspan></text>
+    <clipPath id="c9"><rect x="24" y="322" width="0" height="22"><animate attributeName="width" from="0" to="190" dur="0.7s" begin="11.9s" fill="freeze"/></rect></clipPath>
     <text x="24" y="338" fill="#e2e8f0" clip-path="url(#c9)"><tspan fill="#6ee7b7" font-weight="700">➜</tspan> <tspan fill="#38bdf8">~/gokulraj</tspan> <tspan fill="#94a3b8">$</tspan></text>
-
     <rect x="192" y="324" width="9" height="17" fill="#6ee7b7" opacity="0">
-      <set attributeName="opacity" to="1" begin="12.9s"/>
-      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" begin="12.9s" repeatCount="indefinite"/>
+      <set attributeName="opacity" to="1" begin="12.7s"/>
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" begin="12.7s" repeatCount="indefinite"/>
     </rect>
   </g>
 </svg>
